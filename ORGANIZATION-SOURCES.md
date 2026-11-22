@@ -35,7 +35,7 @@
 ## Team roster update (21 November 2026)
 
 - Kamran Khan Rayan and Abdul Wasi Wahdat are published as co-founders in the [February 2024 EIR interview](https://eir.news/2024/02/interview-expanding-access-to-education-in-afghanistan/). The official About page still uses placeholder "Founder Name" labels, so no additional official titles are claimed on the Team page.
-- Fardin Khan's "Coordinator" role was supplied directly by the organization in the project brief.
+- Fardin Khan is presented with the neutral "Team member" label, as requested by the organization.
 - Ismatullah Khan Pazhwak, Sliman Ghazanfer and Nasib Ullah Tarhan have no verifiable public title; the Team page uses the neutral label "Team member" and states that confirmation is pending.
 - Six team portraits were supplied conversationally but are not available as files in the project workspace. Exact required filenames are documented in `public/images/team/README.md`.
 
@@ -45,5 +45,5 @@
 - Internal notes in the team and program data were rewritten as visitor-facing copy. No new factual claims were added.
 - The contact form opens a prepared message in the visitor's email application; it does not send or store messages. The button reads "Open email draft" and the confirmation says the draft is ready, not that a message was sent.
 - The illustrative map pin and coordinates were removed from Contact; only the verified city, Kabul, is shown.
-- The six team portraits are now present in `public/images/team/` and render correctly. Fardin Khan's "Coordinator" role is used because it was supplied by the organization. The other three coordination members keep the neutral "Team member" label until roles are confirmed.
+- The six team portraits are now present in `public/images/team/` and render correctly. Fardin Khan and the three other coordination members use the neutral "Team member" label.
 - Open items still requiring Light Path confirmation: preferred contact inbox (two addresses appear on the live site), a clean library photograph without the legacy email, current program schedules and eligibility, a street address, and approved Dari/Pashto copy.

@@ -63,7 +63,7 @@ export const TEAM = [
     id: 'fardin-khan',
     uploadOrder: 6,
     name: 'Fardin Khan',
-    role: 'Coordinator',
+    role: 'Team member',
     group: 'team',
     photoBase: '/images/team/06-fardin-khan',
     bio: null,
