@@ -224,10 +224,18 @@
     @apply h-px w-full bg-white/20;
   }
 
+  .stat-block {
+    container-type: inline-size;
+  }
+
   .stat-number {
     @apply font-display font-medium leading-none;
-    font-size: clamp(4rem, 10vw, 10rem);
+    /* Fallback for browsers without container queries */
+    font-size: clamp(3rem, 5vw, 4.75rem);
+    /* Scale to the column itself so figures never overlap in a two-column layout */
+    font-size: clamp(2.75rem, 20cqw, 4.75rem);
     letter-spacing: -0.06em;
+    font-variant-numeric: tabular-nums;
   }
 
   .noise-overlay {
