@@ -47,3 +47,9 @@
 - The illustrative map pin and coordinates were removed from Contact; only the verified city, Kabul, is shown.
 - The six team portraits are now present in `public/images/team/` and render correctly. Fardin Khan and the three other coordination members use the neutral "Team member" label.
 - Open items still requiring Light Path confirmation: preferred contact inbox (two addresses appear on the live site), a clean library photograph without the legacy email, current program schedules and eligibility, a street address, and approved Dari/Pashto copy.
+
+## Board of Directors — 25 November 2026
+
+- Faisal Mahmoodi was added as Chair of the Board of Directors on the Our Team page, with the role, biography and motto supplied directly by the organization.
+- The supplied biography identifies him as a policy and investment specialist at the Ministry of Mines and Petroleum and co-founder & CEO of Selenic Access, and describes his long-standing support for Light Path. These details are published as organization-supplied information.
+- The portrait attached in chat is not available as a file in the workspace. The Board section uses `public/images/team/07-faisal-mahmoodi.*` and shows an initials placeholder until the approved photograph is saved there.

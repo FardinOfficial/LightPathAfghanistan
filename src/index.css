@@ -675,6 +675,64 @@ main > section[id] { scroll-margin-top: 70px; }
 
 .team-section-head { max-width: 58rem; }
 
+/* Board of Directors — a cinematic interlude */
+.team-board {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: #10241c;
+  color: var(--field-paper);
+  border-block: 1px solid #f4f1e71f;
+}
+.team-board::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(circle at 18% 22%, #d5b87914 0%, transparent 42%);
+  pointer-events: none;
+}
+.team-board-grid {
+  display: grid;
+  align-items: center;
+  gap: clamp(2.5rem, 5vw, 5.5rem);
+}
+.team-board-media { min-width: 0; }
+.team-board-photo {
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  max-width: 440px;
+  border: 1px solid #d5b87966;
+}
+.team-board-photo img { object-position: center 24%; }
+.team-board-rule {
+  height: 1px;
+  width: 100%;
+  margin-block: clamp(28px, 4vw, 46px);
+  background: rgba(244, 241, 231, 0.3);
+  transform-origin: left center;
+}
+.team-board-role {
+  font: 700 0.74rem/1.4 'DM Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--field-accent);
+}
+.team-board-name {
+  margin-top: 0.6rem;
+  font: 500 clamp(2.1rem, 4vw, 3.5rem)/1.05 'Playfair Display', Georgia, serif;
+  letter-spacing: -0.04em;
+  color: var(--field-paper);
+}
+.team-board-quote {
+  margin-top: clamp(28px, 4vw, 46px);
+  padding-left: clamp(18px, 2.5vw, 32px);
+  border-left: 2px solid var(--field-accent);
+  font: italic 500 clamp(1.35rem, 2.6vw, 2.2rem)/1.25 'Playfair Display', Georgia, serif;
+  color: rgba(244, 241, 231, 0.9);
+}
+.team-board-quote span { color: var(--field-accent); }
+
 .team-leadership { background: var(--field-paper); }
 .team-coordination { background: #eae7db; }
 
@@ -785,6 +843,8 @@ main > section[id] { scroll-margin-top: 70px; }
 }
 @media (min-width: 900px) {
   .team-purpose-grid { grid-template-columns: 1.1fr 0.9fr; }
+  .team-board-grid { grid-template-columns: 0.85fr 1.15fr; }
+  .team-board-photo { max-width: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   .team-scroll svg { animation: none; }

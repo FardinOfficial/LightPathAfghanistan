@@ -71,6 +71,17 @@ export const TEAM = [
   },
 ]
 
+export const BOARD = [
+  {
+    id: 'faisal-mahmoodi',
+    name: 'Faisal Mahmoodi',
+    role: 'Chair, Board of Directors',
+    photoBase: '/images/team/07-faisal-mahmoodi',
+    bio: 'Faisal Mahmoodi chairs the Board of Directors of Light Path Afghanistan, guiding its strategy, governance, and accountability. A policy and investment specialist at the Ministry of Mines and Petroleum and co-founder & CEO of Selenic Access, he has stood with Light Path from the earliest steps of its journey to this day, offering steady support and guidance. Through his wide network of connections, he has helped create the conditions for the organization’s growth and development.',
+    quote: 'Read. Serve. Light the way.',
+  },
+]
+
 export const LEADERSHIP = TEAM.filter((member) => member.group === 'leadership')
 export const TEAM_MEMBERS = [
   TEAM.find((member) => member.id === 'ismatullah-khan-pazhwak'),

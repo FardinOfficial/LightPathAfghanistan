@@ -3,7 +3,7 @@ import { ArrowDown, ArrowUpRight, ExternalLink } from 'lucide-react'
 import AnimatedText from '../components/AnimatedText'
 import Photo from '../components/Photo'
 import TeamPortrait from '../components/TeamPortrait'
-import { LEADERSHIP, TEAM_MEMBERS, TEAM_SOURCES } from '../data/team'
+import { BOARD, LEADERSHIP, TEAM_MEMBERS, TEAM_SOURCES } from '../data/team'
 
 function PortraitCaption({ member, index, large = false }) {
   return (
@@ -87,7 +87,27 @@ export default function Team() {
         </div>
       </section>
 
-      {/* 3 — Team & Coordination */}
+      {/* 3 — Board of Directors */}
+      <section className="team-board section-pad" id="board">
+        <div className="shell team-board-grid">
+          <div className="team-board-media">
+            <TeamPortrait member={BOARD[0]} className="team-board-photo" objectPosition="center 24%" />
+          </div>
+          <div className="team-board-copy">
+            <p className="eyebrow eyebrow-light" data-reveal-left>Board of Directors</p>
+            <h2 className="display-lg mt-5 text-paper" data-reveal-left>Guidance that keeps the mission in view.</h2>
+            <div className="team-board-rule" data-divider aria-hidden="true" />
+            <p className="team-board-role" data-reveal>{BOARD[0].role}</p>
+            <h3 className="team-board-name" data-reveal>{BOARD[0].name}</h3>
+            <p className="lede mt-6 text-paper/75" data-reveal>{BOARD[0].bio}</p>
+            <blockquote className="team-board-quote" data-reveal>
+              <span aria-hidden="true">“</span>{BOARD[0].quote}<span aria-hidden="true">”</span>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      {/* 4 — Team & Coordination */}
       <section className="team-coordination section-pad" id="team">
         <div className="shell">
           <div className="team-section-head" data-reveal-left>
@@ -110,7 +130,7 @@ export default function Team() {
         </div>
       </section>
 
-      {/* 4 — Our Shared Purpose */}
+      {/* 5 — Our Shared Purpose */}
       <section className="team-purpose section-pad">
         <div className="shell team-purpose-grid">
           <Photo image="library-shelves" className="team-purpose-photo" showCaption objectPosition="center center" />
@@ -134,7 +154,7 @@ export default function Team() {
         </div>
       </section>
 
-      {/* 5 — Closing CTA */}
+      {/* 6 — Closing CTA */}
       <section className="team-cta">
         <div className="shell team-cta-inner" data-reveal>
           <div>

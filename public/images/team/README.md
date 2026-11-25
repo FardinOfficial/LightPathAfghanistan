@@ -1,9 +1,7 @@
 # Team photographs
 
-Save the six photographs here using these exact base names. Any common format works
+Save the photographs here using these exact base names. Any common format works
 (`.jpg`, `.jpeg`, `.png` or `.webp`) — the site checks them in that order.
-
-Sequential order matches the names supplied:
 
 | # | Filename | Person |
 | --- | --- | --- |
@@ -13,6 +11,7 @@ Sequential order matches the names supplied:
 | 4 | `04-ismatullah-khan-pazhwak.jpg` | Ismatullah Khan Pazhwak |
 | 5 | `05-abdul-wasi-wahdat.jpg` | Abdul Wasi Wahdat |
 | 6 | `06-fardin-khan.jpg` | Fardin Khan |
+| 7 | `07-faisal-mahmoodi.jpg` | Faisal Mahmoodi — Chair, Board of Directors |
 
 Until a file is present, the page shows an elegant typographic placeholder with the
 person's initials — never a stock face or generated portrait.
