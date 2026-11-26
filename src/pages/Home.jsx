@@ -15,7 +15,7 @@ export default function Home() {
       <section className="field-hero">
         <div className="field-hero-bg" data-hero-image aria-hidden="true">
           <img
-            src="/images/students-computer-classroom.webp"
+            src="/images/classroom-girls.jpg"
             alt=""
             className="h-full w-full object-cover"
             style={{ objectPosition: 'center 42%' }}

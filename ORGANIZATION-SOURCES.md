@@ -53,3 +53,9 @@
 - Faisal Mahmoodi was added as Chair of the Board of Directors on the Our Team page, with the role, biography and motto supplied directly by the organization.
 - The supplied biography identifies him as a policy and investment specialist at the Ministry of Mines and Petroleum and co-founder & CEO of Selenic Access, and describes his long-standing support for Light Path. These details are published as organization-supplied information.
 - The portrait attached in chat is not available as a file in the workspace. The Board section uses `public/images/team/07-faisal-mahmoodi.*` and shows an initials placeholder until the approved photograph is saved there.
+
+## Photography replacement — 26 November 2026
+
+- The organization supplied five new field photographs (library reading, classroom, field conversation, children with books, community visit). These replaced the earlier branded graphics sourced from the website, including the library banner that carried an obsolete email address.
+- The new images are published with factual captions and alt text; no new claims about dates, locations or numbers were added.
+- The social sharing image was regenerated from the new classroom photograph, and the header, footer and favicon use the updated official emblem supplied by the organization.

@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="site-footer relative overflow-hidden text-paper" data-footer>
       <div className="footer-media" data-footer-image aria-hidden="true">
         <img
-          src="/images/students-computer-classroom.webp"
+          src="/images/classroom-girls.jpg"
           alt=""
           loading="lazy"
           decoding="async"
