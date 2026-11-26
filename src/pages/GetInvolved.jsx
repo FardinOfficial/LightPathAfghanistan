@@ -24,7 +24,7 @@ export default function GetInvolved() {
       <PageIntro
         tone="sand"
         className="intro-involved"
-        photo="community-study"
+        photo="get-involved-hero"
         photoPosition="center 42%"
         eyebrow={t('involved.heroEyebrow')}
         lines={t('involved.heroLines')}

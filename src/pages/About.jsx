@@ -18,7 +18,7 @@ export default function About() {
       <PageIntro
         tone="sand"
         className="intro-split"
-        photo="courtyard"
+        photo="about-hero"
         photoPosition="center 46%"
         eyebrow={t('about.heroEyebrow')}
         lines={t('about.heroLines')}

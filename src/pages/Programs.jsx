@@ -43,7 +43,7 @@ export default function Programs() {
       <PageIntro
         tone="deep"
         className="intro-index"
-        photo="teacher-session"
+        photo="programs-hero"
         photoPosition="center 38%"
         eyebrow={t('programs.heroEyebrow')}
         lines={t('programs.heroLines')}

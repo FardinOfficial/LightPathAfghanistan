@@ -17,7 +17,7 @@ export default function Impact() {
       <PageIntro
         tone="forest"
         className="intro-record"
-        photo="library-shelves"
+        photo="impact-hero"
         photoPosition="center 45%"
         eyebrow={t('impact.heroEyebrow')}
         lines={t('impact.heroLines')}

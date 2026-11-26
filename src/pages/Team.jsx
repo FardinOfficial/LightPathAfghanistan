@@ -33,7 +33,7 @@ export default function Team() {
       <section className="team-hero">
         <div className="team-hero-bg" data-hero-image aria-hidden="true">
           <img
-            src="/images/field-conversation.jpg"
+            src="/images/team-hero.jpg"
             alt=""
             className="h-full w-full object-cover"
             style={{ objectPosition: 'center 40%' }}

@@ -51,7 +51,7 @@ export default function Gallery() {
       <PageIntro
         tone="sand"
         className="intro-split"
-        photo="books-materials"
+        photo="gallery-hero"
         photoPosition="center 42%"
         eyebrow="Photo & film archive"
         lines={['From the field.']}

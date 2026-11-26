@@ -157,7 +157,7 @@ export default function Contact() {
       <PageIntro
         tone="sand"
         className="intro-contact"
-        photo="community-ribbon"
+        photo="contact-hero"
         photoPosition="center 45%"
         eyebrow={t('contact.heroEyebrow')}
         lines={t('contact.heroLines')}

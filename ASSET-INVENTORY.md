@@ -8,6 +8,13 @@ the central registry in `src/data/photography.js`. Nothing is hotlinked.
 | Local file | Content | Placement |
 | --- | --- | --- |
 | `images/Hero.jpeg` | Children holding books and learning materials with community members outside a building | Homepage hero |
+| `images/about-hero.jpg` | Volunteer with children in a rural community | About hero |
+| `images/team-hero.jpg` | Community members at a Light Path gathering | Team hero |
+| `images/programs-hero.jpg` | Learning materials being handed to a child | Programs hero |
+| `images/impact-hero.jpg` | People looking at books at a community library | Impact hero |
+| `images/gallery-hero.jpg` | Volunteer handing a book to a child | Gallery hero |
+| `images/get-involved-hero.jpg` | Volunteer spending time with children | Get Involved hero |
+| `images/not-found-hero.jpg` | Children reading books together | 404 page hero |
 | `images/classroom-girls.jpg` | Girls studying together in a classroom | Gallery, footer background, social sharing image |
 | `images/library-reading.jpg` | Children and young people reading together in a Light Path library | About, Impact, Team, Libraries program, gallery |
 | `images/children-books.jpg` | Children looking at books and learning materials with a volunteer | Team hero, About, Books program, gallery, 404 page |

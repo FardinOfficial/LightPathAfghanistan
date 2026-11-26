@@ -9,7 +9,7 @@ export default function NotFound() {
     <section className="relative isolate flex min-h-[80svh] items-center overflow-hidden bg-forest text-paper">
 
       <div className="page-intro-media" data-hero-image aria-hidden="true">
-        <img src="/images/children-books.jpg" alt="" className="h-full w-full object-cover" style={{ objectPosition: 'center 45%' }} fetchpriority="high" />
+        <img src="/images/not-found-hero.jpg" alt="" className="h-full w-full object-cover" style={{ objectPosition: 'center 45%' }} fetchpriority="high" />
       </div>
       <div className="page-intro-overlay overlay-dark" aria-hidden="true" />
 
