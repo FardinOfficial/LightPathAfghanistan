@@ -41,7 +41,7 @@ export default function Footer() {
         <div className="grid gap-12 py-14 md:grid-cols-2 lg:grid-cols-[1.4fr_0.8fr_1fr_1fr] lg:gap-10" data-footer-reveal>
           <div>
             <Link to="/" className="inline-flex items-center gap-3 text-white" aria-label="Light Path Afghanistan — home">
-              <img src="/images/logo-emblem.jpg" alt="" width="52" height="52" className="h-12 w-12 shrink-0 rounded-[2px] bg-paper p-1.5 object-contain" />
+              <img src="/images/logo-emblem.jpg" alt="" width="52" height="52" className="h-14 w-14 shrink-0 object-contain" />
               <span className="font-display text-[1.35rem] font-semibold leading-none tracking-tight">
                 Light Path
                 <span className="mt-1 block font-sans text-[0.56rem] font-bold uppercase tracking-[0.28em] text-gold">Afghanistan</span>

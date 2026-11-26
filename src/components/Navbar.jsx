@@ -14,7 +14,7 @@ function Brand({ light, onClick }) {
         alt=""
         width="46"
         height="46"
-        className="h-10 w-10 shrink-0 rounded-[2px] bg-paper p-1 object-contain transition-transform duration-500 ease-editorial group-hover:rotate-6 md:h-11 md:w-11"
+        className="h-11 w-11 shrink-0 object-contain transition-transform duration-500 ease-editorial group-hover:rotate-6 md:h-12 md:w-12"
       />
       <span className="font-display text-[1.12rem] font-semibold leading-none tracking-tight md:text-[1.3rem]">
         Light Path
