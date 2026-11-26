@@ -9,6 +9,13 @@ function Brand({ light, onClick }) {
   const { t } = useI18n()
   return (
     <Link to="/" onClick={onClick} className={`group relative z-10 flex shrink-0 items-center gap-3 ${light ? 'text-white' : 'text-forest'}`} aria-label="Light Path Afghanistan — home">
+      <img
+        src="/images/logo-emblem.jpg"
+        alt=""
+        width="46"
+        height="46"
+        className="h-10 w-10 shrink-0 rounded-[2px] bg-paper p-1 object-contain transition-transform duration-500 ease-editorial group-hover:rotate-6 md:h-11 md:w-11"
+      />
       <span className="font-display text-[1.12rem] font-semibold leading-none tracking-tight md:text-[1.3rem]">
         Light Path
         <span className="mt-1 block font-sans text-[0.54rem] font-bold uppercase tracking-[0.28em] opacity-80 md:text-[0.6rem]">Afghanistan</span>
