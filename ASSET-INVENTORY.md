@@ -7,7 +7,8 @@ the central registry in `src/data/photography.js`. Nothing is hotlinked.
 
 | Local file | Content | Placement |
 | --- | --- | --- |
-| `images/classroom-girls.jpg` | Girls studying together in a classroom | Home hero, gallery, footer background, social sharing image |
+| `images/Hero.jpeg` | Children holding books and learning materials with community members outside a building | Homepage hero |
+| `images/classroom-girls.jpg` | Girls studying together in a classroom | Gallery, footer background, social sharing image |
 | `images/library-reading.jpg` | Children and young people reading together in a Light Path library | About, Impact, Team, Libraries program, gallery |
 | `images/children-books.jpg` | Children looking at books and learning materials with a volunteer | Team hero, About, Books program, gallery, 404 page |
 | `images/field-conversation.jpg` | Team member speaking with local residents in a rural area | About, Programs, Contact hero, Schools and Teachers programs, gallery |
